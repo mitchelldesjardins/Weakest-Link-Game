@@ -1,0 +1,34 @@
+<!--
+Mitchell Desjardins
+Assignment: The Weakest Link
+Date: April 10 2019
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Player Info: The Weakest Link</title>
+    <link href="../CSS/fourm.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body bgcolor="#66d9ff"> 
+    <h1> Please Enter Your Information</h1>
+    <fourm>
+        <label><b>First Name:</b> </label>
+          <input type="text" placeholder="First Name" id = "inputFName" > <br> <br>
+        <label><b>Last Name:</b> </label>
+          <input type="text" placeholder="Last Name" id = "inputLName" > <br> <br>
+        <lable>&nbsp &nbsp &nbsp<b>Age:</b> &nbsp &nbsp &nbsp </lable>
+        <input type="text" placeholder="Age"  id = "inputAge"> <br><br>
+        <label><b>Sex: </b></label>
+          <label>Male</label>
+            <input type="radio" name="Sex" id="inputMale">
+          <label>Female</label>
+            <input type="radio" name="Sex" id="inputFemale"> <br><br>
+      <button class="button" id="start" onclick="window.location.href = 'game.html';">START GAME</button>
+    </fourm>
+    <div id="display"></div>
+    <script src="../SCRIPT/form.js"> </script>
+  </body>
+</html>

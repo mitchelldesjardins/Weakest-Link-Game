@@ -1,0 +1,44 @@
+.button{
+  background-color: #0080ff;
+  border: none;
+  color: white;
+  padding: 15px 225px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1{
+  background-color: #0080ff;
+  border: none;
+  color: white;
+  padding: 15px 162px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 6vw;
+  padding: 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+    color: #0080ff;
+    background-color: #66d9ff;
+    letter-spacing: .05em;
+}
+h4{
+  font-size: 2vw;
+  padding: 0px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+    color: #0080ff;
+    background-color: #66d9ff;
+    letter-spacing: .05em;
+}

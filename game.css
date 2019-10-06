@@ -1,0 +1,43 @@
+#score{
+  width: 25%;
+  float: left;
+}
+
+#score img{
+  width: 40%;
+  height: auto;
+}
+
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid #0080ff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+.choice:hover{
+    border : 2px solid #0080ff;
+    font-weight: bold;
+}
+.question {
+  text-align: left;
+  font-size: 3em;
+}
+.timer {
+  text-align: right;
+  font-size: 1em;
+}
+.button{
+  background-color: #0080ff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

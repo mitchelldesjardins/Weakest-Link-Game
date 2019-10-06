@@ -1,0 +1,57 @@
+<!--
+Mitchell Desjardins
+Assignment: The Weakest Link
+Date: April 10 2019
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Play: The Weakest Link</title>
+	<link href="../CSS/game.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="#66d9ff">
+	<div class="container">
+		<div id="playerDesc">
+			<b><p id="playerName"></p></b>
+			<b><p id="playerAge"></p></b>
+			<b><p id="playerSex"></p></b>
+		</div>
+		<b><div id="roundDiv"></div></b>
+		<div id="score">
+			<img id="right8" src="../IMAGES/500kmoney.png" width="20%"/><br>
+      <img id="right7" src="../IMAGES/250kmoney.png" width="20%"/><br>
+      <img id="right6" src="../IMAGES/125kmoney.png" width="20%"/><br>
+      <img id="right5" src="../IMAGES/75kmoney.png" width="20%"/><br>
+      <img id="right4" src="../IMAGES/50kmoney.png" width="20%"/><br>
+      <img id="right3" src="../IMAGES/10000money.png" width="20%"/><br>
+      <img id="right2" src="../IMAGES/5000money.png" width="20%"/><br>
+      <img id="right1" src="../IMAGES/1000money.png" width="20%"/><br>
+      <img src="../IMAGES/nomoney.png" width="20%"/><br><br>
+      <div id="availMoney"> </div> <br>
+      <button id="bank" onclick="" class="button">BANK</button><br>
+      <div id="bankDisplay"></div>
+    </div>
+   </div>
+
+   <div class="qNA">
+     <div class="question" id="question"></div>
+     
+     <div class="buttons"> 
+      <div class="choice" id="A" onclick="checkAnswer(1)"></div>
+      <div class="choice" id="B" onclick="checkAnswer(2)"></div>
+      <div class="choice" id="C" onclick="checkAnswer(3)"></div>
+      <div class="choice" id="D" onclick="checkAnswer(4)"></div>
+    </div>
+    
+   </div>
+   <b><P class="timer">Timer</P></b>
+    <div align="right" id="timer">120</div>
+
+  <script src="../SCRIPT/game.js"></script>
+  </body>
+</html>
